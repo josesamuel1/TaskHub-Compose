@@ -93,9 +93,7 @@ fun LoginScreen(navController: NavController) {
 
         // Botão de Entrar
         Button(
-            onClick = {
-                navController.navigate("home")
-            },
+            onClick = { navController.navigate("home") },
             modifier = Modifier
                 .width(175.dp)
                 .padding(10.dp)
